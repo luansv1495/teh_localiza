@@ -1,0 +1,32 @@
+name: teh_localiza
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  dartz:
+  flutter_modular:
+  google_fonts:
+  geolocator:
+  geocoder:
+  flutter_map:
+  mqtt_client:
+  better_uuid:
+  hive:
+  hive_flutter:
+  string_validator:
+  flutter_phoenix:
+  connectivity:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
